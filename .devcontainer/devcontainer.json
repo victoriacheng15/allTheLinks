@@ -9,9 +9,15 @@
 		"vscode": {
 			"extensions": [
 				"Vue.volar",
-				"Vue.vscode-typescript-vue-plugin"
+				"Vue.vscode-typescript-vue-plugin",
+				"bradlc.vscode-tailwindcss"
 			],
-			"settings": {}
+			"settings": {
+				"emmet.includeLanguages": {
+					"vue-html": "html",
+					"vue": "html"
+				}
+			}
 		}
 	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
