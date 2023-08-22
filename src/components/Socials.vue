@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SCOIALS } from "../constant/";
+import { SCOIALS } from "../constant";
 import { formatNameForSVG } from "../utils";
 </script>
 

@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { NAME, HEADLINE } from "../constant/";
 import Socials from "./Socials.vue";
+
+defineProps<{ name: string; headline: string }>();
 </script>
 
 <template>
@@ -9,10 +10,10 @@ import Socials from "./Socials.vue";
       <img
         class="h-40 w-40 mx-auto rounded-full"
         src="/avatar.jpg"
-        alt="Victoria Cheng"
+        alt="{{ name }}"
       />
-      <h1 class="text-center text-3xl font-bold tracking-wide">{{ NAME }}</h1>
-      <p class="text-center text-xl tracking-wide">{{ HEADLINE }}</p>
+      <h1 class="text-center text-3xl font-bold tracking-wide">{{ name }}</h1>
+      <p class="text-center text-xl tracking-wide">{{ headline }}</p>
       <Socials />
     </div>
   </header>
