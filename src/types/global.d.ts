@@ -1,26 +1,26 @@
 interface List {
-  title: string;
-  href: string;
-  category?: string;
+	title: string;
+	href: string;
+	category?: string;
 }
 
 interface Book {
-  title: string;
-  authors: string;
-  imageLinks: {
-    smallThumbnail: string;
-    thumbnail: string;
-  };
+	title: string;
+	authors: string;
+	imageLinks: {
+		smallThumbnail: string;
+		thumbnail: string;
+	};
 }
 
 interface FetchBooks {
-  books: Book[];
-  loading: boolean;
-  error: string;
+	books: Book[];
+	loading: boolean;
+	error: string;
 }
 
 interface VolumeInfo {
-  volumeInfo: {
-    title: string;
-  };
+	volumeInfo: {
+		title: string;
+	};
 }
