@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { LINKS } from "../constant";
+import Books from "./Books.vue";
 </script>
 
 <template>
-  <main class="mx-auto w-11/12 max-w-3xl py-14">
+  <main class="mx-auto w-11/12 max-w-3xl space-y-10 py-14">
     <section>
       <ul class="flex flex-col gap-8 text-center">
         <li
@@ -28,6 +29,9 @@ import { LINKS } from "../constant";
           </a>
         </li>
       </ul>
+    </section>
+    <section>
+      <Books />
     </section>
   </main>
 </template>

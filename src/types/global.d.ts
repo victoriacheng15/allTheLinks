@@ -6,7 +6,7 @@ interface List {
 
 interface Book {
 	title: string;
-	authors: string;
+	authors: string[];
 	imageLinks: {
 		smallThumbnail: string;
 		thumbnail: string;
