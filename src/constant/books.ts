@@ -16,8 +16,8 @@ export const BOOKS = [
 		author: "Jim Kwik",
 	},
 	{
-		title: "The 12 Week Year",
-		author: "Brian P. Moran",
+		title: "Software Engineering at Google",
+		author: "Titus Winters",
 	},
 ];
 
