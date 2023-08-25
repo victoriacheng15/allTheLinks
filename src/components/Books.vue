@@ -30,9 +30,16 @@ onMounted(async () => {
   <h2 class="py-6 text-center text-3xl">📚 My Book Recommendations: 📚</h2>
   <Placeholders :isLoading="loading" />
   <ul class="flex flex-wrap items-center justify-center gap-6">
-    <li v-for="{ title, authors, imageLinks: { thumbnail } } in books" :key="title"
-      class="grid w-56 place-items-center gap-1">
-      <img class="h-full w-full" :src="thumbnail" :alt="`${title} Book by ${formatAuthors(authors)}`" />
+    <li
+      v-for="{ title, authors, imageLinks: { thumbnail } } in books"
+      :key="title"
+      class="grid w-56 place-items-center gap-1"
+    >
+      <img
+        class="h-full w-full"
+        :src="thumbnail"
+        :alt="`${title} Book by ${formatAuthors(authors)}`"
+      />
       <h3 class="text-center text-xl">
         {{ title }}
       </h3>
