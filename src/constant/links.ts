@@ -15,6 +15,11 @@ export const LIST: List[] = [
 		category: "social",
 	},
 	{
+		title: "YouTube",
+		href: "https://www.youtube.com/@victoriacheng15",
+		category: "social",
+	},
+	{
 		title: "Buy me a coffee",
 		href: "https://www.buymeacoffee.com/victoriacheng15",
 		category: "social",
