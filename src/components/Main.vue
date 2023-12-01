@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { LINKS } from "../constant";
-import Books from "./Books.vue";
 </script>
 
 <template>
@@ -29,9 +28,6 @@ import Books from "./Books.vue";
           </a>
         </li>
       </ul>
-    </section>
-    <section>
-      <Books />
     </section>
   </main>
 </template>
