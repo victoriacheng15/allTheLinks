@@ -6,6 +6,7 @@ on:
 
 jobs:
   build-deploy:
+    if: ${{ github.actor }} != "dependabot"
     runs-on: ubuntu-latest
 
     steps:
