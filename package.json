@@ -11,7 +11,7 @@
     "prettier": "npx prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.4.3"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
