@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
-    "@vitejs/plugin-vue": "^5.0.2",
+    "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
     "prettier": "^3.2.4",
